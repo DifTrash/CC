@@ -28,7 +28,7 @@ The plastic classification system API allows users to upload images for identifi
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/C241-PS090/Cloud-Computing.git
+    git clone https://github.com/DifTrash/CC.git
     cd repository-name/predict-api
     ```
 
