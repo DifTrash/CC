@@ -10,7 +10,7 @@ The plastic classification system API allows users to upload images for identifi
 - [Node.js API](#nodejs-api)
   - [Requirements](#requirements-1)
   - [Installation](#installation-1)
-  - [BackendURL](#backend-servicr-url)
+  - [BackendURL](#backend-service-url)
   - [API Endpoints](#api-endpoints)
 - [License](#license)
 
@@ -87,7 +87,7 @@ The plastic classification system API allows users to upload images for identifi
     ---
 ### API Endpoints
 
-## Backend Service URL
+### Backend Service URL
 ```
   URL= https://backend-blwec3ugoq-et.a.run.app
 ```
