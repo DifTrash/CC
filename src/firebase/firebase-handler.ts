@@ -1,4 +1,3 @@
-// import { User } from "firebase/auth";
 import { db } from "./config";
 import {
   doc,

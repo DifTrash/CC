@@ -3,12 +3,14 @@
 
 # testing
 /coverage
+test.*
 
 # production
 /build
 
 # env files (can opt-in for commiting if needed)
 .env*
+env.*
 
 # typescript
 *.tsbuildinfo

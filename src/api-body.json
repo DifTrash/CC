@@ -1,0 +1,22 @@
+{
+    "title": "Contoh Penggunaan API",
+    "content": [
+        {
+            "label": "Sign Up",
+            "url": "/auth/signup",
+            "body": {
+                "username": "username",
+                "email": "email@gmail.com",
+                "password": "password8digit"
+            }
+        },
+        {
+            "label": "Sign In",
+            "url": "/auth/signin",
+            "body": {
+                "email": "email@gmail.com",
+                "password": "password8digit"
+            }
+        }
+    ]
+}

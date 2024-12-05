@@ -3,6 +3,7 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   updateProfile,
+  signOut as signOutHandler,
 } from "firebase/auth";
 import { SetDocument, UpdateDocument } from "../firebase/firebase-handler";
 
@@ -14,9 +15,10 @@ export async function SignUp(name: string, email: string, password: string) {
   );
   const { user } = credentials;
   await updateProfile(user, { displayName: name });
+
   await SetDocument("user", user.uid, {
     uid: user.uid,
-    name: user.displayName,
+    displayName: user.displayName,
     email: user.email,
     photoURL: user.photoURL,
     createdAt: new Date(),
@@ -30,4 +32,8 @@ export async function SignIn(email: string, password: string) {
   const { uid } = credentials.user;
   await UpdateDocument("user", uid, { lastSignInAt: new Date() });
   return credentials;
+}
+
+export async function SignOut() {
+  await signOutHandler(auth);
 }
