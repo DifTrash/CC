@@ -87,6 +87,11 @@ The plastic classification system API allows users to upload images for identifi
     ---
 ### API Endpoints
 
+### Backend Service URL
+```
+  URL= https://backend-blwec3ugoq-et.a.run.app
+```
+
 #### Response Type
  ```
   {
