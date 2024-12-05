@@ -2,11 +2,6 @@
 
 The plastic classification system API allows users to upload images for identification into categories 1-7 using a machine learning model, providing confidence levels and recycling guidelines. The API also stores classification history and offers educational materials to support effective plastic waste management and raise public awareness.
 
-## Backend Service URL
-```
-  URL= https://backend-blwec3ugoq-et.a.run.app
-```
-
 ## Table of Contents
 - [Python Predict Model](#python-predict-model)
   - [Requirements](#requirements)
@@ -15,6 +10,7 @@ The plastic classification system API allows users to upload images for identifi
 - [Node.js API](#nodejs-api)
   - [Requirements](#requirements-1)
   - [Installation](#installation-1)
+  - [BackendURL](#backend-servicr-url)
   - [API Endpoints](#api-endpoints)
 - [License](#license)
 
@@ -90,6 +86,11 @@ The plastic classification system API allows users to upload images for identifi
     ```
     ---
 ### API Endpoints
+
+## Backend Service URL
+```
+  URL= https://backend-blwec3ugoq-et.a.run.app
+```
 
 #### Response Type
  ```
