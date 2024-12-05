@@ -11,6 +11,7 @@ The plastic classification system API allows users to upload images for identifi
   - [Requirements](#requirements-1)
   - [Installation](#installation-1)
   - [API Endpoints](#api-endpoints)
+  - [BackendURL](#backend-service-url)
 - [License](#license)
 
 ## Python Predict Model
