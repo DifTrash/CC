@@ -22,7 +22,6 @@ The plastic classification system API allows users to upload images for identifi
 - TensorFlow 2.18.0
 - Keras
 - Google Cloud Firestore
-- uvicorn
 - pillow
 
 ### Installation
